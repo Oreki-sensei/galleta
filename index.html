@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galleta Aleatoria</title>
+</head>
+<body>
+    <p id="galleta"> </p>
+
+    <script>
+        var galletas = [
+            "Si fueras una galleta serías una Galleta de Gota",
+            "Si fueras una galleta serías una Galleta Prensada",
+            "Si fueras una galleta serías una Galleta Moldeada",
+            "Si fueras una galleta serías una Galleta de gota",
+            "Si fueras una galleta serías una Galleta Enrollada",
+            "Si fueras una galleta serías una Galleta de Nevera",
+            "Si fueras una galleta serías una Galleta de Barra",
+            "Si fueras una galleta serías una Galleta de Sin Hornear",
+            "Si fueras una galleta serías una Galleta con Chispas de Chocolate",
+            "Si fueras una galleta serías una Galleta de Avena con Pasas",
+            "Si fueras una galleta serías una Galleta de Mantequilla de Mani",
+            "Si fueras una galleta serías una Galleta de Azucar",
+            "Si fueras una galleta serías una Galleta en Blanco y Negro",
+            "Si fueras una galleta serías una Snickerdoodles",
+            "Si fueras una galleta serías una Galleta de Terciopelo Rojo",
+            "Si fueras una galleta serías una Galleta Arrugada",
+            "Si fueras una galleta serías una Whoopie Pies",
+            "Si fueras una galleta serías una Galleta de Melaza",	
+            "Si fueras una galleta serías una Oreo",	
+            "Si fueras una galleta serías una Galleta de la Fortuna",
+            "Si fueras una galleta serías una Galleta de Animales",
+            "Si fueras una galleta serías un Alfajor",
+            "Si fueras una galleta serías una Galleta de Mantequilla(Dinamarca)",
+            "Si fueras una galleta serías una Galleta de Mantequilla(Escocia)",
+            "Si fueras una galleta serías una Galleta de Jengibre(Inglaterra)",
+            "Si fueras una galleta serías una Galleta de Jengibre(Alemania)",
+            "Si fueras una galleta serías una Galleta de Media luna de Vainilla(Austria)",
+            "Si fueras una galleta serías un Macaron Frances",
+            "Si fueras una galleta serías una Galleta de Merengue",
+            "Si fueras una galleta serías una Galleta Speculoos",
+            "Si fueras una galleta serías un KrumKake",
+            "Si fueras una galleta serías un Stroopwafel",
+            "Si fueras una galleta serías unos Macarrones(Italia)",
+            "Si fueras una galleta serías una Galleta de gota",
+            "Si fueras una galleta serías una Savoiardi",
+            "Si fueras una galleta serías una Galleta Amaretti di Saronno",
+            "Si fueras una galleta serías una Kourabiedis",
+            "Si fueras una galleta serías una Lengua de Gato",
+            "Si fueras una galleta serías una Galleta de Singapur",
+            "Si fueras una galleta serías una Galleta de Matcha",
+            "Si fueras una galleta serías una Galleta de Sakura",
+            "Si fueras una galleta serías una Acibadem Kurabiyesi",
+            "Si fueras una galleta serías una Ghoriba Bahla",
+            "Si fueras una galleta serías una Kaab el Ghazal",
+            "Si fueras una galleta serías una Kaak al-Eid",
+            "Si fueras una galleta serías una Ghorayeba",
+            "Si fueras una galleta serías una Galleta Anzac"
+        ];
+
+        var randomIndex = Math.floor(Math.random() * galletas.length);
+        var randomGalleta = galletas[randomIndex];
+
+        document.getElementById("galleta").innerHTML = randomGalleta;
+    </script>
+</body>
+</html>
